@@ -175,6 +175,7 @@ bool aStar(int maze[ROWS][COLS], int start[2], int end[2]) {
 }
 
 int main() {
+    //run the prgm with gcc -lm Astar.c .... -lm cuz math.h was used.
     int maze[ROWS][COLS] = {
         {0, 0, 0, 0, 1},
         {0, 1, 1, 0, 0},
